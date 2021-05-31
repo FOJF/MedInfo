@@ -1,6 +1,6 @@
 # MedInfo
 
-iOS프로그래밍 수업 - 기말대체 개인프로젝트
+iOS프로그래밍 수업 - 기말(개인프로젝트)
 
 UITabBarController, UINavigationController, UIViewController를 이용
 AutoLayout을 이용해 다양한 기종에서 사용할 수 있게 구현
