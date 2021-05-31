@@ -33,12 +33,6 @@ extension TakeMedicineListViewController {
         let longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(editTableView))
         takeMedicineListTableView.addGestureRecognizer(longPressGesture)
         
-        
-    }
-}
-
-extension TakeMedicineListViewController {
-    override func viewDidAppear(_ animated: Bool) {
         if authContext.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {
             
             authContext.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: "암호를 입력해주세요.") { (success, error) in
@@ -76,6 +70,7 @@ extension TakeMedicineListViewController {
                 }
             }
         }
+        
     }
 }
 
