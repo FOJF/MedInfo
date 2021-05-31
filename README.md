@@ -1,6 +1,7 @@
 # MedInfo
 
 UITabBarController, UINavigationController, UIViewController를 이용
+AutoLayout을 이용해 다양한 기종에서 사용할 수 있게 구현
 
 의약품 검색 탭
 - 의약품 검색(예: 타이레놀)
